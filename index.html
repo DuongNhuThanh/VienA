@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Đặt lịch khám bệnh viện A Thái Nguyên</title>
+    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="./asset/icon/themify-icons-font/themify-icons/themify-icons.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header-top">
+                    <div class="chirld">
+                        <i class="ti-headphone-alt"></i>
+                        <b> HOTLINE: </b>
+                        <b id="number">0208.3846112</b>
+                    </div>
+                    <div>
+                    <form action="" class="search" method="post">
+                      <input type="text" placeholder="   Tìm kiếm">
+                    </form>
+                    </div>
+                
+                    <div class="chirld">
+                        <i class="ti-clipboard"></i>
+                        <a href="">
+                        <b id="text"> Đặt lịch khám </b>
+                        </a>
+                    </div>
+            </div>
+            <div class="header-mid">
+                <div class="logo"><a href=""><img src="/asset/img/logo.png" alt=""></a></div>
+                
+                <div class="nav">
+                        <li>
+                            <i class="ti-home"></i>
+                            <a href="">Trang chủ</a>
+                        </li>
+                        <li>
+                            <i class="ti-user"></i>
+                            <a href="">Bác sĩ</a>
+                        </li>
+                        <li>
+                            <i class="ti-bookmark-alt"></i>
+                            <a href="">Chuyên khoa</a>
+                        </li>
+                        <li>
+                            <i class="ti-archive"></i>
+                            <a href="">Dịch vụ</a>
+                        </li>
+                        <li>
+                            <a href="">
+                             <i class="ti-user"></i>
+                             Tài khoản
+                            </a>
+                            <ul class="subnav">
+                                <li>                                  
+                                    <a href="">Đăng nhập</a>
+                                </li>
+                                <li>
+                                    <a href="">Đăng kí</a>
+                                </li>
+                            </ul> 
+                        </li>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="slider-body">
+            <div class="slider">
+                <div class="image">
+                    <input type="radio" name="slide" id="img1" checked>
+                    <input type="radio" name="slide" id="img2"> 
+                    
+                    <img src="/asset/img/img1.png" class="m1" alt="img1">
+                    <img src="/asset/img/img2.png" class="m2" alt="img2">
+
+                       
+                </div>
+
+                <div class="dot">
+                    <label for="img1"></label>
+                    <label for="img2"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row-body">
+                <div class="col-75">
+                    <div class="text-justify">
+                        <h1 class="upper-case">Đặt lịch khám</h1>
+                        <div class="time">
+                            <label for="">Khung giờ <small>*</small></label>
+                            <select name="" id="">
+                                <option value="">7.00h - 9.00h</option>
+                                <option value="">9.00h - 11h45p</option>
+                                <option value="">13.00h - 15.00h</option>
+                                <option value="">15.00h - 17.00h</option>
+                            </select>
+                        </div>
+                    </div>
+                    <form action="" id="form-dk" method="post">
+                        <div class="row">
+                            <div class="col-row-32">
+                                <div class="form-group">
+                                    <label for="">Họ và tên <small>*</small></label>
+                                    <input type="text" name="form-name" placeholder="Họ và tên" required>
+                                </div>
+                            </div>
+                            <div class="col-row-32">
+                                <div class="form-group">
+                                    <label for="">Email <small>*</small></label>
+                                    <input type="email" name="form-email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="col-row-32">
+                                <div class="form-group">
+                                    <label for="">Số điện thoại <small>*</small></label>
+                                    <input type="number" name="form-phone" placeholder="Số điện thoại" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-row-32">
+                                <div class="form-group">
+                                    <label for="">Chuyên khoa</label>
+                                    <select name="" id="">
+                                        <option value="">Thần kinh</option>
+                                        <option value="">Phụ sản</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-row-32">
+                                <div class="form-group">
+                                    <label for="">Bác sĩ</label>
+                                    <select name="" id="">
+                                        <option value="">Dương Như Thành</option>
+                                        <option value="">Tạ Bá Minh Đức</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-row-32">
+                                <div class="form-group">
+                                    <label for="">Dịch Vụ</label>
+                                    <select name="" id="">
+                                        <option value="">Chẩn đoán</option>
+                                        <option value="">Xét Nghiệm</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group-center center">
+                                <button type="submit">
+                                    <i class="ti-check-box"></i>
+                                    Gửi thông tin đặt lịch
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-25">
+                    <div class="confirm box">
+                        <h3 class="upper-case"><i class="ti-check-box"></i>    Lịch hẹn mới xác nhận   </h3>
+                    </div>
+
+                    <div class=" new-feed  box">
+                        <h3 class="upper-case"><i class="ti-receipt"></i>    Tin bài mới  </h3>
+
+                        <div class="form-new">
+                            <img src="/asset/img/new-1.jpeg" alt="">
+                            <a class="font-weight" href="#">
+                                Lãnh đạo tỉnh thăm, động viên và chúc Tết tại Bệnh viện 
+                               <br>
+                             <i class="ti-notepad">  06/02/2024</i>
+                            </a>
+                        </div>
+                        <div class="form-new">
+                            <img src="/asset/img/new-2.jpeg" alt="">
+                            <a class="font-weight" href="#">
+                                Bệnh viện A tổ chức Hội nghị Tổng kết công tác bệnh viện năm 2023
+                               <br>
+                             <i class="ti-notepad">  31/01/2024</i>
+                            </a>
+                        </div>
+                        <div class="form-new">
+                            <img src="/asset/img/new-3.png" alt="">
+                            <a class="font-weight" href="#">
+                                Báo cáo tự kiểm tra, đánh giá chất lượng Bệnh viện năm 2023
+                               <br>
+                             <i class="ti-notepad">  30/01/2024</i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="row-footer text-while">
+                <div class="col-30 ">
+                    <div class="infor">
+                        <img src="/asset/img/logo-bottom.png" alt="">
+                        <p>Đường Quang Trung, Phường Thịnh Đán, TP Thái Nguyên, Thái Nguyên.</p>
+                        <ul class="contact-footer">
+                            <li class="chird-botton">
+                                <i class="ti-headphone"></i>
+                                <a href="#">0208.3846112</a>
+                            </li>
+                            <li class="chird-botton">
+                                <i class="ti-email"></i>
+                                <a href="#">hotro@benhviena.vn</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                 <div class="col-30 box-list">
+                    <h3 class="title">Menu</h3>
+                    <ul class="list">
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="col-30 box-list">
+                    <h3 class="title">Liên Kết</h3>
+                    <ul class="list">
+                        <li><a href="#">Bộ Y tế</a></li>
+                        <li><a href="#">TT truyền thông GDSK TW</a></li>
+                        <li><a href="#">Tổ chức Y tế thế giới</a></li>
+                        <li><a href="#">Cục quản lý KCB</a></li>
+                        <li><a href="#">Sở Y tế thái nguyên</a></li>
+                    </ul>
+                </div>
+                <div class="col-30 box-list">
+                    <h3 class="title">Đối Tác</h3>
+                    <ul class="list">
+                        <li><a href="#">Đại học Y Hà Nội</a></li>
+                        <li><a href="#">Đại học Y Dược Thái Nguyên</a></li>
+                    </ul>
+                    <div id="map">
+                        <a href="https://maps.app.goo.gl/Qomwtw9s64jRYvAz7">
+                            <img src="/asset/img/map.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-botton">
+                <p>Copyright ©2024 - Bệnh viện A Thái Nguyên - Chịu trách nhiệm nội dung:
+                     GĐBV BSCKII Hà Hải Bằng</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
